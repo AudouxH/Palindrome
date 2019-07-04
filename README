@@ -1,0 +1,44 @@
+The palidrome is a project which found one or more most closest palindrome for your number
+The palidrome is found to take your number, reverse this and add the result at your number
+
+Exemple using :
+
+./palidrome -h
+USAGE
+./palindrome -n number -p palindrome [-b base] [-imin i] [-imax i]
+DESCRIPTION
+-n n integer to be transformed (>=0)
+-p pal palindromic number to be obtained (incompatible with the -n
+option) (>=0)
+if defined, all fitting values of n will be output
+-b base base in which the procedure will be executed (1<b<=10) [def: 10]
+-imin i minimum number of iterations, included (>=0) [def: 0]
+-imax i maximum number of iterations, included (>=0) [def: 100]
+
+./palidrome -n 363
+363 leads to 363 in 0 iteration(s) in base 10
+./palidrome -n 6387
+6387 leads to 46464 in 2 iteration(s) in base 10
+./palidrome -p 363
+3 leads to 363 in 6 iteration(s) in base 10
+6 leads to 363 in 5 iteration(s) in base 10
+12 leads to 363 in 4 iteration(s) in base 10
+15 leads to 363 in 3 iteration(s) in base 10
+21 leads to 363 in 4 iteration(s) in base 10
+24 leads to 363 in 3 iteration(s) in base 10
+30 leads to 363 in 4 iteration(s) in base 10
+33 leads to 363 in 3 iteration(s) in base 10
+39 leads to 363 in 2 iteration(s) in base 10
+42 leads to 363 in 3 iteration(s) in base 10
+48 leads to 363 in 2 iteration(s) in base 10
+51 leads to 363 in 3 iteration(s) in base 10
+57 leads to 363 in 2 iteration(s) in base 10
+60 leads to 363 in 3 iteration(s) in base 10
+66 leads to 363 in 2 iteration(s) in base 10
+75 leads to 363 in 2 iteration(s) in base 10
+84 leads to 363 in 2 iteration(s) in base 10
+93 leads to 363 in 2 iteration(s) in base 10
+132 leads to 363 in 1 iteration(s) in base 10
+231 leads to 363 in 1 iteration(s) in base 10
+330 leads to 363 in 1 iteration(s) in base 10
+363 leads to 363 in 0 iteration(s) in base 10
